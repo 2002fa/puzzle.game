@@ -37,14 +37,16 @@ void vorood(){
      {
      cerr << "some thing wrong during opening file!" << endl;
      exit(1);
+
+
      }
     inputFile >> username >> password;
 
-    //if (username==NULL){
+    if (username==NULL){
         cout <<""<<endl;
         cout <<"1.";
-     //   sabt_nam();
-    //}
+        sabt_nam();
+    }
 
 
     cout<<"Please enter your username :"<<endl;
